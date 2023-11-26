@@ -11,7 +11,7 @@ BLECharacteristic *pCharacteristic;
 const uint64_t broadcastInterval = 60000000; 
 const uint64_t sleepInterval = 60000000;   
 
-#define DHTPIN 4     // Change this to the pin you connected the DHT sensor to
+#define DHTPIN 4  
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
